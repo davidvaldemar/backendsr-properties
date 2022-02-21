@@ -3,6 +3,8 @@ server:
   servlet:
      context-path: /v1.0/
 spring:
+  profiles: 
+    active: dev
   application:
     name: api-mobile-marvel
   datasource:
