@@ -45,3 +45,16 @@ eureka:
    client: 
       serviceURL: 
          defaultZone: http://localhost:8761/eureka
+
+logging:
+  level:
+    com:
+      cuscatlan:
+        backendsr: INFO
+
+  file:
+    name: log/app.log
+    max: 100MB
+
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] [%X{message}] %c{1}:%line - %msg%n"
