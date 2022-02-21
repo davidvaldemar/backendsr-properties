@@ -30,4 +30,9 @@ marvel:
   key:
     public: bfadcc42641f4a5bc6f7408a0b1c6098
     private: f74b60618e8fdf9550e82d5800b18da92dad69e8
+
+eureka: 
+   client: 
+      serviceURL: 
+         defaultZone: http://localhost:8761/eureka
   
