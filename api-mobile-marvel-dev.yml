@@ -23,7 +23,7 @@ spring:
 marvel: 
   url: http://localhost:8081
   method:
-    get-character: /v1.0/characters1
+    get-character: /v1.0/characters
     get-comic: /v1.0/comics
     get-comic-by-id: /v1.0/comics/{comicId}
     get-comic-by-creator: /v1.0/creators
